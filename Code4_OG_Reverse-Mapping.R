@@ -13,7 +13,7 @@ orthogroup_mapping <- read.csv("orthogroup_mapping.csv")
 id_to_orthogroup <- setNames(orthogroup_mapping$Orthogroup, orthogroup_mapping$NumericalID)
 
 # Read the ancestral gene order.out file
-geneorder_file <- "run3_geneorder.out"
+geneorder_file <- "geneorder.out"
 geneorder_lines <- readLines(geneorder_file)
 
 # Initialize an empty list to store gene orders
