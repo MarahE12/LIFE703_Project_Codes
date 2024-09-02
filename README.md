@@ -52,4 +52,6 @@ Steps:
 
 3 - Output the ancestral gene orders in CSV format.
 
+____________________________________________________
+
 #### If you reached this far, congratulations! I hope everything makes sense, and thank you!
