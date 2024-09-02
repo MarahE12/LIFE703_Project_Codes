@@ -65,4 +65,4 @@ Steps:
 
 ____________________________________________________
 
-#### If you reached this far, congratulations! I hope everything makes sense, and thank you!
+#### If you reached this far, congratulations! I hope everything makes sense, and thank you! :)
