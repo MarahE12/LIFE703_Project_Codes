@@ -3,7 +3,7 @@ library(dplyr)
 library(readr)
 library(tidyr)
 
-##Angomonas
+## Standardising Angomonas specific gene ID to respective OG ID
 
 # Step 1: Read the GFF file and extract the gene name
 gff_data <- read_tsv("Chr2_Angomonas.gff", comment = "#", col_names = FALSE)
@@ -35,9 +35,8 @@ gff_data <- gff_data %>%
 output_file <- "Angomonas_Standardised.gff"
 write_tsv(gff_data, output_file, col_names = FALSE)
 
-____
 
-##Tbrucei_Chr4
+## Standardising Tbrucei_Chr4 specific gene ID to respective OG ID 
 
 # Step 1: Read the GFF file and extract the gene name
 gff_data <- read_tsv("Chr4_Tbrucei_927_editted.gff", comment = "#", col_names = FALSE)
@@ -69,9 +68,8 @@ gff_data <- gff_data %>%
 output_file <- "Tbrucei4_Standardised.gff"
 write_tsv(gff_data, output_file, col_names = FALSE)
 
-_____
 
-##Tbrucei_Chr8
+## Standardising Tbrucei_Chr8 specific gene ID to respective OG ID 
 
 # Step 1: Read the GFF file and extract the gene name
 gff_data <- read_tsv("Chr8_Tbrucei_927_editted.gff", comment = "#", col_names = FALSE)
@@ -103,9 +101,9 @@ gff_data <- gff_data %>%
 output_file <- "Tbrucei8_Standardised.gff"
 write_tsv(gff_data, output_file, col_names = FALSE)
 
-_____
 
-##Lotmaria_Chr5
+
+## Standardising Lotmaria_Chr5 specific gene ID to respective OG ID 
 
 # Step 1: Read the GFF file and extract the gene name
 gff_data <- read_tsv("Chr5_Lotmaria.gff", comment = "#", col_names = FALSE)
@@ -137,9 +135,9 @@ gff_data <- gff_data %>%
 output_file <- "Lot5_Standardised.gff"
 write_tsv(gff_data, output_file, col_names = FALSE)
 
-____
 
-##Lotmaria_Chr6
+
+## Standardising Lotmaria_Chr6 specific gene ID to respective OG ID 
 
 # Step 1: Read the GFF file and extract the gene name
 gff_data <- read_tsv("Chr6_Lotmaria.gff", comment = "#", col_names = FALSE)
@@ -171,9 +169,8 @@ gff_data <- gff_data %>%
 output_file <- "Lot6_Standardised.gff"
 write_tsv(gff_data, output_file, col_names = FALSE)
 
-____
 
-##Porcisia
+## Standardising Porcisia specific gene ID to respective OG ID 
 
 # Step 1: Read the GFF file and extract the gene name
 gff_data <- read_tsv("Chr31_Porcisia.gff", comment = "#", col_names = FALSE)
@@ -205,9 +202,8 @@ gff_data <- gff_data %>%
 output_file <- "Porcisia_Standardised.gff"
 write_tsv(gff_data, output_file, col_names = FALSE)
 
-____
 
-##T.cruzi
+## Standardising T.cruzi specific gene ID to respective OG ID 
 
 # Step 1: Read the GFF file and extract the gene name
 gff_data <- read_tsv("Chr31_Tcruz_NONEsmeraldo.gff", comment = "#", col_names = FALSE)
@@ -239,9 +235,8 @@ gff_data <- gff_data %>%
 output_file <- "Tcruzi_Standardised.gff"
 write_tsv(gff_data, output_file, col_names = FALSE)
 
-____
 
-##Crithidia
+## Standardising Crithidia specific gene ID to respective OG ID 
 
 # Step 1: Read the GFF file and extract the gene name
 gff_data <- read_tsv("Chr35_Crithidia.gff", comment = "#", col_names = FALSE)
@@ -273,9 +268,8 @@ gff_data <- gff_data %>%
 output_file <- "Crithidia_Standardised.gff"
 write_tsv(gff_data, output_file, col_names = FALSE)
 
-____
 
-##Tryp_sp
+## Standardising Tryp_sp specific gene ID to respective OG ID 
 
 # Step 1: Read the GFF file and extract the gene name
 gff_data <- read_tsv("Contig15_TrypSp.gff", comment = "#", col_names = FALSE)
@@ -307,9 +301,8 @@ gff_data <- gff_data %>%
 output_file <- "Tryp_Standardised.gff"
 write_tsv(gff_data, output_file, col_names = FALSE)
 
-____
 
-##LMajor
+## Standardising L.major specific gene ID to respective OG ID 
 
 # Step 1: Read the GFF file and extract the gene name
 gff_data <- read_tsv("Chr31_LMajor.gff", comment = "#", col_names = FALSE)
