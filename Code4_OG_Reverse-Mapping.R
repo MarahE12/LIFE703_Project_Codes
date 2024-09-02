@@ -46,7 +46,7 @@ for (name in names(ancestral_gene_orders)) {
   ancestral_genes <- ancestral_gene_orders[[name]]
   mapped_genes <- map_genes(ancestral_genes, id_to_orthogroup)
   gene_order_df <- data.frame(order = seq_along(mapped_genes), gene = mapped_genes)
-  output_file <- paste0("Run3_ancestral_gene_order_", name, ".csv")
+  output_file <- paste0("ancestral_gene_order_", name, ".csv")
   write.csv(gene_order_df, output_file, row.names = FALSE)
   message("Saved: ", output_file)
 }
