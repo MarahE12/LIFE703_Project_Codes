@@ -1,4 +1,4 @@
-# MSc_Project_Codes
+# MSc_Project
 These are codes I generated for my project, titled "Evolution of a Genomic Duplicon (Chr31) in Trypanosomatid Parasites"
 
 This repository contains scripts used in my research project, focusing on genomic data analysis and standardisation of gene IDs across different species. The repository includes Python and R scripts for tasks such as translating nucleotide sequences to protein sequences, standardising gene IDs, converting gene IDs to numerical values, and reverse-mapping inferred ancestral gene order.
